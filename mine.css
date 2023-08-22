@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-color: rgba(225, 0, 255, 0.637);
+}
+
+body{
+    background-color: var(--font-color);
+    display:flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.heart{
+background-color: #ffffff;
+padding: 10px;
+border-radius: 20px;
+text-align: center;
+margin: 20px auto;
+box-shadow: 5px 10px 10px 5px rgba(212, 0, 255, 0.39) inset;
+}
+
+.heart #header{
+padding: 10px;
+text-transform: capitalize;
+font-size: 15pt;
+color:palevioletred;
+font-family: consolas;
+}
+
+.heart h1{
+font-size: 3.5rem;
+margin: 10px;
+}
+
+.heart button{
+border: 0;
+padding: 15px 25px;
+font-size: 15pt;
+margin: 10px;
+border-radius: 20px;
+background-color: #eb1768;
+color: #ffffff;
+cursor: pointer;
+transition: all 0.5s;
+font-family: consolas;
+}
+
+.heart button:hover{
+    background-color: paleturquoise;
+    
+}
